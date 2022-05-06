@@ -1,0 +1,96 @@
+<!--TAGS SEMÂNTICAS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: rgb(70, 70, 70);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+        }
+        
+        header {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav  {
+            background-color: rgb(107, 107, 107);
+            padding: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+    
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 1px;
+            text-align: center;
+        }
+        footer > p {
+            color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+            <a href="##">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae officiis tempora quisquam quidem non asperiores placeat, eum alias! Maiores hic vitae, unde inventore rerum incidunt animi molestias ipsam deleniti esse!</p>
+                <aside>
+                    Artigo escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim mesmo !!!</p>
+    </footer>
+
+</body>
+</html>
